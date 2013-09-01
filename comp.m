@@ -107,11 +107,11 @@ end
 
 h3= plot(STIM.possdirections,Model,'bo-','MarkerFaceColor','b');
 
-%legend([h1,h2,h3],{'Single grating','Predicted component response','Model response'});
-%xlabel('Direction (deg)');
-%set(gca,'XTick',0:45:360);
-%set(gca,'XLim',[0,360]);
-%ylim = get(gca,'YLim');
-%set(gca,'YLim',[0,ylim(2)]);
+legend([h1,h2,h3],{'Single grating','Predicted component response','Model response'});
+xlabel('Direction (deg)');
+set(gca,'XTick',0:45:360);
+set(gca,'XLim',[0,360]);
+ylim = get(gca,'YLim');
+set(gca,'YLim',[0,ylim(2)]);
 
-%ylabel('Response');
+ylabel('Response');
